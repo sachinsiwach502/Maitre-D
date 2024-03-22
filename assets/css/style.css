@@ -455,8 +455,82 @@
     position: relative;
 
 }
-.mt_147{
+
+.mt_147 {
     margin-top: 147px;
+}
+
+.h-81 {
+    height: 81px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.cross {
+    display: none;
+}
+
+.pt_35 {
+    padding-top: 35px;
+}
+
+.w_h_77-34 {
+    width: 77px;
+    height: 34px;
+    border-radius: 19px;
+    background-color: var(--white-color);
+    position: relative;
+
+}
+
+.right {
+    right: 0;
+    transform: translate(-3px, -50%) !important;
+
+}
+
+.mb_142 {
+    margin-bottom: 142px;
+}
+
+.mt_191 {
+    margin-top: 191px;
+}
+
+.pl_41 {
+    padding-left: 41px;
+}
+
+.w_h_27-27 {
+    width: 27px;
+    height: 27px;
+    background: var(--liner-gradient);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(3px, -50%);
+    top: 50%;
+    transition: none !important;
+}
+
+.pt_29 {
+    padding-top: 29px;
+}
+
+.py_41 {
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.pb_29 {
+    padding-bottom: 29px;
+}
+
+.gap-23 {
+    gap: 23px;
+}
+
+.bg-gredint {
+    background: var(--liner-gradient);
 }
 
 .footer-link::before {
