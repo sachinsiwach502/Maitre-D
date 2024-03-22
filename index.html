@@ -64,11 +64,11 @@
     <main>
         <!------------- About us---------- -->
         <section class="position-relative ">
-            <div class="position-absolute over-img">
-                <img src="./assets/img/png/over-main-behind.png" alt="over-main-behind">
+            <div class="position-absolute over-img w-100">
+                <img src="./assets/img/png/over-main-behind.png" alt="over-main-behind" class="w-100">
             </div>
-            <div class="position-absolute behind">
-                <img src="./assets/img/png/main-behind.png" alt="main-behind">
+            <div class="position-absolute behind w-100">
+                <img src="./assets/img/png/main-behind.png" alt="main-behind" class="w-100">
             </div>
             <div class="container">
                 <div class="row align-items-center pt-200 justify-content-between">
@@ -81,10 +81,10 @@
                             <h3 class="fs-16 lh-19 fw-6 m-0 text-color">About Us</h3>
                             <div class="line"></div>
                         </div>
-                        <div class="fw-7 fs-40 lh-45 mt-14 text_center md-fs-36">What is <span class="text-color">
+                        <div class="fw-7 fs-40 lh-45 mt_14 text_center md-fs-36">What is <span class="text-color">
                                 Maître
                                 D?</span></div>
-                        <p class="fw-4 fs-16 lh-26 opacity-75 mt-12 max-w-453">Maître D is a full service solution,
+                        <p class="fw-4 fs-16 lh-26 opacity-75 mt_12 max-w-453">Maître D is a full service solution,
                             designed
                             specifically for
                             salons and
@@ -102,7 +102,7 @@
         <!--------- Features ------------>
 
         <section class="bg-img-2 pt_217">
-            <div class="container">
+            <div class="container_feature">
                 <div class="d-flex align-items-center justify-content-center">
                     <h3 class="text-color m-0 fw-6 fs-16 lh-18">Features</h3>
                     <div class="line"></div>
@@ -112,7 +112,7 @@
                         D?</span> </h1>
 
                 <div class="row pt_121 align-items-center justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12 mt-3 position-relative">
                         <div
                             class="min-h-293 shadow d-flex flex-column align-items-center justify-content-center py-18 rounded-2 card">
                             <div class="w_h_87"> <svg width="61" height="55" viewBox="0 0 61 55" fill="none"
@@ -122,15 +122,17 @@
                                         fill="white" />
                                 </svg>
                             </div>
-                            <h3 class="fw-7 fs-24 lh-36 mt-30">Easy for Clients</h3>
+                            <h3 class="fw-7 fs-24 lh-36 mt_30">Easy for Clients</h3>
                             <p class="fw-4 fs-16 lh-26 opacity-75 text-center mt-2">Allow Clients to sign up for
                                 services
                                 quickly and
                                 effortlessly
                             </p>
+                            <div class="position-absolute ellips-img"><img src="./assets/img/png/ellips.png"
+                                    alt="ellips"></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12 mt-3 position-relative">
                         <div
                             class="min-h-293 shadow d-flex flex-column align-items-center justify-content-center py-18 rounded-2 card">
                             <div class="w_h_87"> <svg width="43" height="52" viewBox="0 0 43 52" fill="none"
@@ -150,13 +152,15 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h3 class="fw-7 fs-24 lh-36 mt-30">Full Visibility</h3>
+                            <h3 class="fw-7 fs-24 lh-36 mt_30">Full Visibility</h3>
                             <p class="fw-4 fs-16 lh-26 opacity-75 text-center mt-2">See everything inside your business
                                 in real time.
                             </p>
+                            <div class="position-absolute ellips-img"><img src="./assets/img/png/ellips.png"
+                                    alt="ellips"></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12 mt-3 position-relative">
                         <div
                             class="min-h-293  shadow d-flex flex-column align-items-center justify-content-center py-18 rounded-2 card">
                             <div class="w_h_87"> <svg width="53" height="56" viewBox="0 0 53 56" fill="none"
@@ -165,22 +169,412 @@
                                         d="M29.4986 0.543887C22.025 2.56043 16.5097 8.76619 15.607 16.1743L15.3798 18.0394L13.4682 18.1496C12.2298 18.2211 11.5565 18.4221 11.5565 18.7205C11.5565 19.3392 18.9686 31.0933 19.4627 31.2586C19.8629 31.3921 27.1449 20.2052 27.4712 18.9565C27.6321 18.3386 27.4136 18.2481 25.525 18.15C23.9243 18.0668 23.3701 17.8953 23.2871 17.4572C23.0686 16.306 24.7108 12.7905 26.1716 11.2825C31.5854 5.69395 40.4973 7.01083 43.9375 13.9079C46.739 19.5249 44.2838 26.33 38.5201 28.9214C36.5171 29.8221 32.3857 29.964 30.4908 29.1968C29.7899 28.913 28.4769 28.1612 27.5728 27.5265C26.0424 26.4518 25.029 26.2388 25.029 26.9924C25.029 27.5994 27.0386 29.1917 29.0344 30.1657C30.7213 30.989 31.5246 31.144 34.1321 31.1495C37.8796 31.1572 40.478 30.123 42.9616 27.6348C45.5972 24.9941 46.3309 23.0622 46.3269 18.769C46.3243 15.6304 46.2027 14.8921 45.4551 13.4796C43.4288 9.65043 41.0464 7.72946 37.0516 6.70405C33.1165 5.69432 29.105 6.66647 26.1228 9.3524C23.9228 11.3343 22.6866 13.3395 21.9992 16.0419C21.5076 17.9745 21.4472 18.0431 20.1429 18.154C19.1077 18.2419 18.8218 18.4115 18.9114 18.8836C19.0072 19.3866 19.6032 19.5318 22.186 19.681L25.3433 19.8634L22.5461 24.3309C21.008 26.7881 19.664 28.7992 19.5595 28.7996C19.4554 28.8003 18.1052 26.7896 16.5599 24.332L13.7496 19.8634L15.1107 19.681C16.3633 19.5132 16.4951 19.3822 16.7584 18.0394C18.0404 11.505 19.1736 9.12878 22.4401 6.12513C32.7509 -3.35642 49.0971 2.46558 51.2833 16.3979C51.7614 19.4442 51.9289 19.7948 52.6837 19.3279C53.5205 18.8095 52.6003 13.8783 51.0575 10.6149C49.4987 7.31762 45.8393 3.49538 42.871 2.06432C38.6515 0.0302661 33.5509 -0.549745 29.4986 0.543887ZM33.4945 11.2358C33.3445 11.6403 32.6504 12.3568 31.9521 12.8277C29.5325 14.4605 29.5736 16.9502 32.0464 18.5567C33.3306 19.391 33.4038 19.542 33.4038 21.3623C33.4038 22.4202 33.2531 23.3792 33.0688 23.4934C32.6654 23.7429 31.2191 21.9864 31.2191 21.2466C31.2191 20.9395 30.9547 20.7768 30.5819 20.8541C29.1531 21.1507 30.5356 24.4057 32.3329 24.9773C32.6818 25.0882 33.0714 25.5942 33.1984 26.102C33.4857 27.2481 34.6262 27.1536 34.7948 25.9699C34.8585 25.5205 35.1618 25.1528 35.4684 25.1528C36.4078 25.1528 38.5015 22.7736 38.5015 21.7056C38.5015 20.1297 37.53 18.6775 36.1384 18.1733C34.8945 17.7228 34.8603 17.6582 34.8603 15.7646C34.8603 13.9713 34.9142 13.8477 35.5467 14.1866C35.9243 14.389 36.3368 14.9694 36.4639 15.4764C36.7126 16.4687 37.6713 16.724 37.9932 15.8835C38.3144 15.0453 37.1623 13.252 35.9905 12.7657C35.3628 12.5053 34.8545 11.9935 34.79 11.5575C34.6382 10.5307 33.8302 10.33 33.4945 11.2358ZM33.4038 15.6468C33.4038 17.3759 32.9985 17.725 32.1203 16.7525C31.5821 16.1568 31.5402 15.8704 31.8818 15.1197C32.5459 13.6591 33.4038 13.956 33.4038 15.6468ZM36.2025 20.1092C36.6656 20.5455 37.045 21.1507 37.045 21.4538C37.045 22.0452 35.6585 23.6936 35.1611 23.6936C34.9958 23.6936 34.8603 22.7087 34.8603 21.5049C34.8603 20.3011 34.9725 19.3162 35.1101 19.3162C35.2474 19.3162 35.7389 19.673 36.2025 20.1092ZM51.7534 21.657C51.4519 22.4439 51.871 23.4241 52.4295 23.2377C52.6797 23.1541 52.8843 22.7025 52.8843 22.2345C52.8843 21.2346 52.0734 20.8206 51.7534 21.657ZM51.6099 26.4295C51.6099 27.1525 51.7697 27.3641 52.2471 27.2722C52.5978 27.2043 52.8843 26.8253 52.8843 26.4295C52.8843 26.0337 52.5978 25.6547 52.2471 25.5869C51.7697 25.495 51.6099 25.7065 51.6099 26.4295ZM13.7216 34.7682C13.0097 35.0232 10.7554 36.4276 8.71163 37.8893L4.99614 40.5472L4.31304 39.702L3.62995 38.8571L2.1396 39.8916C0.1129 41.299 -0.319676 41.8542 0.202838 42.3777C0.510521 42.6859 0.960576 42.5455 1.97028 41.8257C2.71528 41.2946 3.35176 40.8966 3.38453 40.9408C5.04201 43.1652 11.6341 52.6544 11.7717 53.0138C11.886 53.3129 11.5059 53.8524 10.8516 54.3193C8.64864 55.8905 9.9999 56.7226 12.2505 55.1806C13.7139 54.1782 13.8301 53.8619 13.336 52.2291C13.2584 51.973 13.648 51.482 14.2019 51.138C15.1832 50.5281 15.4118 50.5646 23.3056 52.5961C28.4237 53.913 31.7372 54.5948 32.3122 54.4485C33.2545 54.2095 48.4795 43.6395 50.2401 42.0027C52.8046 39.6177 51.1092 35.3668 47.5933 35.3668C46.569 35.3668 45.4883 35.9217 42.5768 37.9422C40.5355 39.3591 38.8656 40.6774 38.8656 40.8722C38.8656 41.9381 40.2427 41.4289 43.3199 39.2241C47.1181 36.5031 48.2633 36.2755 49.534 37.9882C50.8463 39.757 50.1705 40.4768 41.377 46.6752C36.9649 49.785 32.9789 52.5282 32.5186 52.7712C31.809 53.1458 30.5036 52.912 23.8951 51.2267C19.6123 50.1345 15.7177 49.2379 15.2407 49.2346C14.7637 49.2313 13.853 49.5508 13.2173 49.9445L12.0616 50.6602L8.9159 46.2287L5.77062 41.7977L7.8443 40.2893C12.0506 37.2298 13.7616 36.15 14.7408 35.9366C16.1368 35.6328 34.0858 40.8773 34.7463 41.7823C35.8664 43.3166 34.8745 45.5809 33.0823 45.5809C32.6366 45.5809 30.2028 45.0855 27.6736 44.4799C24.5546 43.7332 22.9564 43.4987 22.7052 43.7504C22.0414 44.4154 22.9451 44.8268 27.5302 45.9486C33.1908 47.3333 34.1015 47.3373 35.5499 45.9818C37.0822 44.5478 37.135 42.4506 35.6796 40.8288C34.7937 39.8413 33.6077 39.4003 25.3931 37.0022C20.2863 35.5109 15.8623 34.2944 15.5619 34.298C15.2615 34.3016 14.4334 34.5132 13.7216 34.7682Z"
                                         fill="white" />
                                 </svg></div>
-                            <h3 class="fw-7 fs-24 lh-36 mt-30">Cost Effective</h3>
+                            <h3 class="fw-7 fs-24 lh-36 mt_30">Cost Effective</h3>
                             <p class="fw-4 fs-16 lh-26 opacity-75 text-center mt-2">Maitre D is provided at an an
                                 amazing, no-contract price.
                             </p>
                         </div>
+                        <div class="position-absolute ellips-img"><img src="./assets/img/png/ellips.png" alt="ellips">
+                        </div>
                     </div>
 
                     <div class="d-flex align-items-center justify-content-center"><button
-                            class="submit-btn text-white fw-7  fs-20 lh-24 mt-43">Sign Up
+                            class="submit-btn text-white fw-7  fs-20 lh-24 mt_43">Sign Up
                             Today</button></div>
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <!-------- Modules-------->
+
+        <section class="pt_169 overflow-hidden position-relative">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center">
+                    <h3 class="text-color m-0 fw-6 fs-16 lh-18">Modules</h3>
+                    <div class="line"></div>
+                </div>
+                <h1 class="fw-7 fs-40 lh-45 letter-spacing text-center mt-9 md-fs-36">Why Choose <span
+                        class="text-color">Maître
+                        D?</span>
+                </h1>
+
+                <div class="slider-slider">
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                            <div
+                                class="col-lg-5  mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer
+                                        Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt_12 col-12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer
+                                        Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer
+                                        Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+                            <div class="col-lg-6 mt_12 col-12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_module shadow">
+                        <div class="row mt_78 justify-content-between">
+
+                            <div
+                                class="col-lg-5 mt_12 col-12 d-flex flex-column justify-content-center align-items-center-lg">
+                                <h1 class="fw-7 fs-24 lh-36 letter-spacing mt-9 md-fs-36 text_center">Manage Your <span
+                                        class="text-color">Customer
+                                        Queues</span>
+                                </h1>
+                                <p class="fs-16 fw-4 lh-24 mt_12 text_center">The Maitre D queue management system is
+                                    designed to
+                                    allow
+                                    your customers to sign up for walk-in appointments and select
+                                    the services they want ahead of time. The queue will provide them with estimated
+                                    wait times, costs and will allow them
+                                    to even select their preferred stylist.
+                                </p>
+                                <p class="fs-16 fw-4 lh-24 mt_21 text_center">As the queue gets bigger or smaller, its
+                                    easy to
+                                    monitor
+                                    your operations and understand when wait periods are getting
+                                    too long to service your customer base and to better resource your stores during
+                                    busy periods. Beat the frustration of
+                                    your customers ahead of time and help manage how they wait for your services
+                                </p>
+                                <div class="d-flex"> <button class="submit-btn mt_25 text-white fs-20 fw-7 lh-23">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 mt_12">
+                                <img src="./assets/img/png/slider-img.png" alt="slider-img" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="next curser">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2263 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2263 14.3363L16.6012 8.71125C16.4252 8.53521 16.1865 8.43632 15.9375 8.43632C15.6885 8.43632 15.4498 8.53521 15.2738 8.71125C15.0977 8.88729 14.9988 9.12605 14.9988 9.375C14.9988 9.62395 15.0977 9.86271 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                            fill="black" />
+                        <path
+                            d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2263 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2263 14.3363L16.6012 8.71125C16.4252 8.53521 16.1865 8.43632 15.9375 8.43632C15.6885 8.43632 15.4498 8.53521 15.2738 8.71125C15.0977 8.88729 14.9988 9.12605 14.9988 9.375C14.9988 9.62395 15.0977 9.86271 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                            fill="url(#paint0_linear_34717_12507)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_34717_12507" x1="25.4521" y1="-7.93118e-07" x2="1.19246"
+                                y2="2.82566" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FD9B2B" />
+                                <stop offset="1" stop-color="#F14F09" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="prev curser">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0V0ZM21.5625 14.0625C21.8111 14.0625 22.0496 14.1613 22.2254 14.3371C22.4012 14.5129 22.5 14.7514 22.5 15C22.5 15.2486 22.4012 15.4871 22.2254 15.6629C22.0496 15.8387 21.8111 15.9375 21.5625 15.9375H10.7006L14.7262 19.9613C14.8134 20.0484 14.8826 20.1519 14.9297 20.2658C14.9769 20.3797 15.0012 20.5017 15.0012 20.625C15.0012 20.7483 14.9769 20.8703 14.9297 20.9842C14.8826 21.0981 14.8134 21.2016 14.7262 21.2887C14.6391 21.3759 14.5356 21.4451 14.4217 21.4922C14.3078 21.5394 14.1858 21.5637 14.0625 21.5637C13.9392 21.5637 13.8172 21.5394 13.7033 21.4922C13.5894 21.4451 13.4859 21.3759 13.3988 21.2887L7.77375 15.6637C7.68644 15.5767 7.61718 15.4732 7.56991 15.3593C7.52265 15.2454 7.49833 15.1233 7.49833 15C7.49833 14.8767 7.52265 14.7546 7.56991 14.6407C7.61718 14.5268 7.68644 14.4233 7.77375 14.3363L13.3988 8.71125C13.4859 8.62408 13.5894 8.55494 13.7033 8.50777C13.8172 8.4606 13.9392 8.43632 14.0625 8.43632C14.1858 8.43632 14.3078 8.4606 14.4217 8.50777C14.5356 8.55494 14.6391 8.62408 14.7262 8.71125C14.8134 8.79842 14.8826 8.90189 14.9297 9.01578C14.9769 9.12967 15.0012 9.25173 15.0012 9.375C15.0012 9.49827 14.9769 9.62033 14.9297 9.73422C14.8826 9.84811 14.8134 9.95158 14.7262 10.0387L10.7006 14.0625H21.5625Z"
+                            fill="black" />
+                        <path
+                            d="M15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0V0ZM21.5625 14.0625C21.8111 14.0625 22.0496 14.1613 22.2254 14.3371C22.4012 14.5129 22.5 14.7514 22.5 15C22.5 15.2486 22.4012 15.4871 22.2254 15.6629C22.0496 15.8387 21.8111 15.9375 21.5625 15.9375H10.7006L14.7262 19.9613C14.8134 20.0484 14.8826 20.1519 14.9297 20.2658C14.9769 20.3797 15.0012 20.5017 15.0012 20.625C15.0012 20.7483 14.9769 20.8703 14.9297 20.9842C14.8826 21.0981 14.8134 21.2016 14.7262 21.2887C14.6391 21.3759 14.5356 21.4451 14.4217 21.4922C14.3078 21.5394 14.1858 21.5637 14.0625 21.5637C13.9392 21.5637 13.8172 21.5394 13.7033 21.4922C13.5894 21.4451 13.4859 21.3759 13.3988 21.2887L7.77375 15.6637C7.68644 15.5767 7.61718 15.4732 7.56991 15.3593C7.52265 15.2454 7.49833 15.1233 7.49833 15C7.49833 14.8767 7.52265 14.7546 7.56991 14.6407C7.61718 14.5268 7.68644 14.4233 7.77375 14.3363L13.3988 8.71125C13.4859 8.62408 13.5894 8.55494 13.7033 8.50777C13.8172 8.4606 13.9392 8.43632 14.0625 8.43632C14.1858 8.43632 14.3078 8.4606 14.4217 8.50777C14.5356 8.55494 14.6391 8.62408 14.7262 8.71125C14.8134 8.79842 14.8826 8.90189 14.9297 9.01578C14.9769 9.12967 15.0012 9.25173 15.0012 9.375C15.0012 9.49827 14.9769 9.62033 14.9297 9.73422C14.8826 9.84811 14.8134 9.95158 14.7262 10.0387L10.7006 14.0625H21.5625Z"
+                            fill="url(#paint0_linear_34717_12509)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_34717_12509" x1="25.4521" y1="-7.93118e-07" x2="1.19246"
+                                y2="2.82566" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FD9B2B" />
+                                <stop offset="1" stop-color="#F14F09" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </div>
+            </div>
+        </section>
+
+        <!--------- pricing----------->
+        <section>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center">
+                    <h3 class="text-color m-0 fw-6 fs-16 lh-18">Pricing</h3>
+                    <div class="line"></div>
+                </div>
+                <h1 class="fw-7 fs-40 lh-45 letter-spacing text-center mt-9 md-fs-36">Simple pricing for <span
+                        class="text-color">everyone</span>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex align-items-center justify-content-center bg-gredint"></div>
+                    </div>
+                    <div class="col-lg-6 col-12"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!------ contact-us ------->
+        <section class="pt_368">
+            <div class="container">
+                <div class="row flex-reverse">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex align-items-center">
+                            <h3 class="text-color m-0 fw-6 fs-16 lh-18">Contact us</h3>
+                            <div class="line"></div>
+                        </div>
+                        <h2 class="fw-7 fs-40 lh-45 letter-spacing mt-9">Get in touch!</h2>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <input type="text" placeholder="Full Name" class="w-48 input fw-4 fs-16 lh-18 pb-3">
+                            <input type="text" placeholder="Email Address" class="w-48 input fw-4 fs-16 lh-18 pb-3">
+                        </div>
+                        <input type="text" placeholder="Company Name" class="w-100 input-1 fw-4 fs-16 lh-18 mt_29 pb-3">
+                        <textarea cols="20" rows="5" class="w-100 bdr_out fw-4 fs-16 lh-18 mt-4"
+                            placeholder="Message"></textarea>
+
+                        <div class=" flex-prop"><button class="submit-btn white fw-7 fs-20 lh-24">Submit</button></div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="./assets/img/png/input-img.png" alt="input-1" class="w-100 h-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer-img mt_147">
+        <div class="container pt_82">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <img src="./assets/img/png/footer-logo.png" alt="footer-logo">
+                <h3 class="fw-4 fs-14 lh-21 white max-w-375 text-center mt_15">Proudly Australian developed software.
+                    Focused
+                    on
+                    increasing
+                    efficiency and
+                    growing business within
+                    the beauty industry.
+                </h3>
+                <div class="d-flex align-items-center justify-content-center mt_30 gap-51">
+                    <a href="" class="fs-14 fw-6 lh-21 white footer-link">Nevigation</a>
+                    <a href="" class="fs-14 fw-6 lh-21 white footer-link">Company</a>
+                    <a href="" class="fs-14 fw-6 lh-21 white footer-link">Contact</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="underline"></div>
+        <h4 class="fw-4 fs-14 lh-18 opacity-75 white text-center py_15">Copyright 2020 All rights reserved, Greenfox
+            Development Pty Ltd©
+        </h4>
     </footer>
 
 

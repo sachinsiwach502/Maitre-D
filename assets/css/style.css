@@ -76,6 +76,22 @@
     --lh-29: 29px;
 }
 
+.container_module {
+    max-width: 1016;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_feature {
+    max-width: 971px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .black {
     color: var(--black-color);
 }
@@ -316,6 +332,10 @@
     letter-spacing: -1.27px;
 }
 
+.pt_368 {
+    padding-top: 368px;
+}
+
 .mt-9 {
     margin-top: 9px;
 }
@@ -323,6 +343,31 @@
 .min-h-293 {
     min-height: 293px;
 }
+
+.w-48 {
+    width: 48%;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid var(--black-color);
+    outline: none;
+}
+
+.bdr_out {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--black-color);
+    resize: none;
+}
+
+.input-1 {
+    border-bottom: 1px solid var(--black-color) !important;
+    outline: none;
+    border: none;
+}
+
+
 
 .py-18 {
     padding-left: 18px;
@@ -345,28 +390,103 @@
     padding-top: 200px;
 }
 
+.prev {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+}
+
+.ellips-img {
+    bottom: 0;
+    right: 0;
+}
+
+.prev:hover svg defs stop {
+    stop-color: #F7608C;
+}
+
+.prev:hover svg defs stop[offset="1"] {
+    stop-color: #F8AC58;
+}
+
+.mt_29 {
+    margin-top: 29px;
+}
+
+.next:hover svg defs stop {
+    stop-color: #F7608C;
+}
+
+.next:hover svg defs stop[offset="1"] {
+    stop-color: #F8AC58;
+}
+
+.next {
+    position: absolute;
+    top: 65%;
+    right: 2%;
+}
+
 .line {
     width: 44px;
     height: 1px;
     background: var(--liner-gradient);
 }
 
-.mt-14 {
+
+.mt_14 {
     margin-top: 14px;
 }
 
-.mt-12 {
-    margin-top: 12px;
+.mt_30 {
+    margin-top: 30px;
 }
 
-.mt-30 {
-    margin-top: 30px;
+.py_15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pt_82 {
+    padding-top: 82px;
+}
+
+.footer-link {
+    position: relative;
+
+}
+.mt_147{
+    margin-top: 147px;
+}
+
+.footer-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--white-color);
+    width: 0;
+    height: 2px;
+    transition: all 200ms linear;
+
+}
+
+.footer-link:hover::before {
+    width: 100%;
 }
 
 .text-color {
     background: var(--liner-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-color);
+    margin-bottom: 30px;
+    margin-top: 12px;
 }
 
 .pt_217 {
@@ -377,8 +497,27 @@
     padding-bottom: 100px;
 }
 
+.max-w-375 {
+    max-width: 375px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.gap-51 {
+    gap: 51px;
+}
+
 .bg-img-2 {
     background-image: url(../img/png/col-4-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-img {
+    background-image: url(../img/png/footer-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,10 +538,30 @@
     background-size: cover;
 }
 
-.mt-43 {
+.mt_21 {
+    margin-top: 21px;
+}
+
+
+.mt_78 {
+    margin-top: 78px;
+}
+
+.mt_43 {
     margin-top: 43px;
 }
 
+.mt_25 {
+    margin-top: 25px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.pt_169 {
+    padding-top: 169px;
+}
 
 .nav-link {
     position: relative;
@@ -423,6 +582,10 @@
 
 .nav-link:hover::before {
     width: 100%;
+}
+
+.mt_12 {
+    margin-top: 12px;
 }
 
 .nav-link:hover {
@@ -477,6 +640,17 @@
         z-index: 5;
     }
 
+    .flex-prop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flex-reverse {
+        flex-direction: column-reverse;
+    }
+
     .show {
         right: 0;
     }
@@ -484,6 +658,11 @@
     .search-icon {
         display: none;
     }
+
+    .align-items-center-lg {
+        align-items: center;
+    }
+
 
     .orange_box {
         display: none;
@@ -521,6 +700,14 @@
 
     .md-fs-36 {
         font-size: var(--fs-36);
+    }
+
+    .prev {
+        display: none !important;
+    }
+
+    .next {
+        display: none !important;
     }
 }
 
