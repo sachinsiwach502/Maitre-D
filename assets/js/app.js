@@ -112,3 +112,25 @@ boxes.forEach(box => {
     });
 });
 
+
+let to_top = document.querySelector(".to_top");
+let pt = 200;
+window.addEventListener("scroll", () => {
+    if (scrollY < pt) {
+        to_top.style.display = "none";
+    } else {
+        to_top.style.display = "flex";
+
+    }
+    to_top.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    })
+});
+
+
+
+gsap.to(".to_top", {
+    y: -20,
+    repeat: -1,
+    yoyo: true
+})

@@ -738,11 +738,27 @@ sup {
     -webkit-text-stroke: thin;
 }
 
-/* input[type="search"] {
-    width: 90px;
-    height: 30px;
-    display: none;
-} */
+.to_top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--liner-gradient);
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.to_top:hover {
+    transform: scale(1.1) !important;
+}
+
+
+
 .w_h_87 {
     width: 87px;
     height: 87px;
