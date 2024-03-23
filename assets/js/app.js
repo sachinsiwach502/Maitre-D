@@ -1,13 +1,25 @@
 let label = document.querySelector(".check");
-let add = document.querySelector(".lg-screen");
+let add_class = document.querySelector(".lg-screen");
+let nav = document.querySelectorAll(".nav-link");
 let body = document.body;
 label.addEventListener("click", () => {
-    add.classList.toggle("show");
-    if (add.classList.contains("show")) { body.style.overflow = "hidden" }
-    else {
-        body.style.overflow = "auto"
+    add_class.classList.toggle("show");
+    if (add_class.classList.contains("show")) {
+        body.style.overflow = "hidden"
     }
+    else {
+        body.style.overflow = "auto";
+    }
+    nav.forEach(other => {
+        other.addEventListener("click", () => {
+            add_class.classList.remove("show")
+            body.style.overflow = "auto";
+        });
+    })
 });
+
+
+
 
 gsap.from(".orange_box", {
     x: -1320,
