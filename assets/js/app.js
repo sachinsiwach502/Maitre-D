@@ -114,6 +114,7 @@ boxes.forEach(box => {
 
 
 let to_top = document.querySelector(".to_top");
+to_top.style.disply = "none"
 let pt = 200;
 window.addEventListener("scroll", () => {
     if (scrollY < pt) {
@@ -126,8 +127,6 @@ window.addEventListener("scroll", () => {
         window.scrollTo({ top: 0, behavior: "smooth" })
     })
 });
-
-
 
 gsap.to(".to_top", {
     y: -20,
