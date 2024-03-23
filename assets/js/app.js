@@ -1,8 +1,12 @@
 let label = document.querySelector(".check");
 let add = document.querySelector(".lg-screen");
-
+let body = document.body;
 label.addEventListener("click", () => {
     add.classList.toggle("show");
+    if (add.classList.contains("show")) { body.style.overflow = "hidden" }
+    else {
+        body.style.overflow = "auto"
+    }
 });
 
 gsap.from(".orange_box", {
