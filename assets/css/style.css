@@ -902,6 +902,10 @@ sup {
         flex-direction: column-reverse;
     }
 
+    .lg_pt_100 {
+        padding-top: 100px;
+    }
+
     .show {
         right: 0;
     }
