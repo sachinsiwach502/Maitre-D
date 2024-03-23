@@ -9,6 +9,7 @@
     -webkit-transition: all 200ms linear !important;
     -o-transition: all 200ms linear !important;
     transition: all 200ms linear !important;
+    margin: 0;
 }
 
 :root {
@@ -380,6 +381,10 @@
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+}
+
+.trans-none {
+    transition: none !important;
 }
 
 .bdr_out {
@@ -994,8 +999,9 @@ sup {
         background: var(--liner-gradient);
     }
 }
+
 @media (max-width:576px) {
-    .sm-fs-14{
+    .sm-fs-14 {
         font-size: var(--fs-14);
     }
 }
