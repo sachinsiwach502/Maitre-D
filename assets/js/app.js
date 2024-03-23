@@ -114,13 +114,13 @@ boxes.forEach(box => {
 
 
 let to_top = document.querySelector(".to_top");
-to_top.style.disply = "none"
+// to_top.style.disply = "none"
 let pt = 200;
 window.addEventListener("scroll", () => {
-    if (scrollY < pt) {
-        to_top.style.display = "none";
-    } else {
+    if (window.scrollY > pt) {
         to_top.style.display = "flex";
+    } else {
+        to_top.style.display = "none";
 
     }
     to_top.addEventListener("click", () => {
@@ -133,3 +133,9 @@ gsap.to(".to_top", {
     repeat: -1,
     yoyo: true
 })
+
+let loading_screen = document.querySelector(".loading-screen");
+loading_screen.style.display = "flex";
+setTimeout(() => {
+    loading_screen.style.display = "none";
+}, 3000)
