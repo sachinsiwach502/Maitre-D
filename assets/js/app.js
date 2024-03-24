@@ -2,18 +2,33 @@ let label = document.querySelector(".check");
 let add_class = document.querySelector(".lg-screen");
 let nav = document.querySelectorAll(".nav-link");
 let body = document.body;
+let first = document.querySelector(".first-line");
+let sec = document.querySelector(".sec-line");
+let third = document.querySelector(".third-line");
+
+
 label.addEventListener("click", () => {
     add_class.classList.toggle("show");
     if (add_class.classList.contains("show")) {
-        body.style.overflow = "hidden"
+        body.style.overflow = "hidden";
+        first.style.transform = "rotate(310deg)";
+        sec.style.display = "none";
+        third.style.transform = "rotate(30deg)"
+        third.style.position = "absolute"
     }
     else {
         body.style.overflow = "auto";
+        first.style.transform = "rotate(0deg)";
+        sec.style.display = "flex";
+        third.style.transform = "rotate(0deg)"
+        third.style.position = "relative"
+
     }
     nav.forEach(other => {
         other.addEventListener("click", () => {
             add_class.classList.remove("show")
             body.style.overflow = "auto";
+
         });
     })
 });
@@ -70,12 +85,11 @@ $('.slider-slider').slick({
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
     ]
 });
 

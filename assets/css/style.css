@@ -84,7 +84,7 @@
 }
 
 .container_module {
-    max-width: 1016;
+    min-height: 793px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -125,6 +125,7 @@
 
 .lh-40 {
     line-height: var(--lh-40);
+   
 }
 
 
