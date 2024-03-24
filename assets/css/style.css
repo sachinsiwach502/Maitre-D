@@ -84,7 +84,8 @@
 }
 
 .container_module {
-    min-height: 793px;
+    /* max-width: 1016px; */
+    /* min-height: 793px; */
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -125,7 +126,7 @@
 
 .lh-40 {
     line-height: var(--lh-40);
-   
+
 }
 
 
@@ -379,9 +380,10 @@
 }
 
 .premium-card:hover {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9.9);
+    -ms-transform: scale(0.99);
+    transform: scale(0.99);
+    background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
 }
 
 .trans-none {
@@ -494,7 +496,10 @@
 
 .footer-link {
     position: relative;
+}
 
+.footer-link:hover {
+    -webkit-text-stroke: thin;
 }
 
 .mt_147 {
